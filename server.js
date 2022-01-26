@@ -11,7 +11,7 @@ mongoose.connect(mongodb)
 
 
 const app = express();
-app.get('/',(req,res)=>res.send('Hello world GASTON ABALDE POST COVID'));
+app.get('/',(req,res)=>res.send('Hello world GASTON ABALDE PULLING FROM GLOBANT GITHUB'));
 
 const port = process.env.PORT || 4000;
 
